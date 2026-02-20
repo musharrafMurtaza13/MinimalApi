@@ -3,4 +3,16 @@
 GET {{calminimalapi_HostAddress}}/weatherforecast/
 Accept: application/json
 
+GET {{calminimalapi_HostAddress}}/items 
+Accept: application/json 
+### 
+POST  {{calminimalapi_HostAddress}}/items?item=item 20 
+Accept: application/json 
+### 
+PUT {{calminimalapi_HostAddress}}/items/2?item=item 2-edited 
+Accept: application/json 
+### 
+DELETE  {{calminimalapi_HostAddress}}/items/1 
+Accept: application/json 
 ###
+
